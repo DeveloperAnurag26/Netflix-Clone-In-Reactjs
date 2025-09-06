@@ -1,0 +1,30 @@
+.footer {
+    padding: 50px 8%;   /* top-bottom aur side padding zyada */
+    max-width: 1200px;  /* pura content spread hoga */
+    margin: 0 auto;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 25px;
+    margin: 50px 0; 
+        /* upar niche ka space zyada */
+}
+.footer-icons img {
+    width: 20px;   /* icon size chhota */
+    cursor: pointer;
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px 40px;     /* row aur column gap */
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+.copyright-text {
+    color: gray;
+    font-size: 14px;
+    margin-top: 20px;   /* upar se space */
+}

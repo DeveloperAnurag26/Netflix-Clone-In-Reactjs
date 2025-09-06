@@ -5,6 +5,8 @@ import hero_banner from '../../../assets/hero_banner.jpg';
 import hero_title from '../../../assets/hero_title.png';
 import play_icon from '../../../assets/play_icon.png';
 import info_icon from '../../../assets/info_icon.png';
+import TitleCard from '../../TitleCard/TitleCard';
+import Footer from '../../Footer/Footer';
 
 
 function Home() {
@@ -20,8 +22,16 @@ function Home() {
             <button className='btn'><img src={play_icon} alt="" srcset="" />Play</button>
             <button className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
           </div>
+          <TitleCard/>
         </div>
       </div>
+      <div className="more-cards">
+        <TitleCard title={"Blockbuster Movies"}/>
+        <TitleCard title={"Only on Netflix"}/>
+        <TitleCard title={"Upcoming"}/>
+        <TitleCard title={"Top Pics For You"}/>
+      </div>
+      <Footer/>
     </div>
   )
 }
